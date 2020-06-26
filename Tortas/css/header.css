@@ -1,0 +1,87 @@
+@font-face 
+{
+    font-family: Opal;
+    src: url(../fonts/Opal.ttf);
+}
+
+body
+{
+    font-family: Opal;
+}
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a, button
+{
+    font-weight: 500;
+    font-size: 16px;
+    color: #F9F2E7;
+    text-decoration: none;
+}
+
+header
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #AA8C84;
+    border-radius: 50px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.logo
+{
+    width: 90px;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav-links
+{
+    list-style: none;
+}
+
+.nav-links li
+{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a
+{
+    font-size: 30px;
+    transition: all 0.3s;
+}
+
+.nav-links li a:hover
+{
+    color: rgba(52, 58, 56, 0.50);
+}
+
+button
+{
+    margin-left: 20px;
+    font-family: Opal;
+    font-size: 30px;
+    padding: 9px 25px;
+    background-color: rgba(179, 59, 91, 0.50);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover
+{
+    background-color: rgba(179, 59, 91, 1);
+}
+

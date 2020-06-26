@@ -1,0 +1,64 @@
+.btn-section
+{
+	
+	font-size: 70px;
+	position: absolute;
+	top: 110%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.btn
+{
+	padding: 20px 50px;
+	border: solid 1px;
+	text-decoration: none;
+}
+
+.btn-white
+{
+	border-color: #F9F2E7;
+	color: #F9F2E7;
+}
+
+.btn-white:hover
+{
+	background-color: #F9F2E7;
+	border-color: #F9F2E7;
+	color: #515151;
+}
+
+.parte1 img
+{
+    margin-top: -100px;
+    width: 1900px;
+    border-radius: 50px;
+}
+
+.final
+{
+	color: black;
+    font-size: 100px;
+	position: absolute;
+    margin-top: 75%;
+    left: 50%;
+    text-align: center;
+	transform: translate(-50%, -50%);
+}
+
+
+.centro
+{
+    color: rgba(255, 255, 255, 0.808);
+    font-size: 100px;
+	position: absolute;
+	top: 70%;
+    left: 50%;
+    text-align: center;
+	transform: translate(-50%, -50%);
+}
+
+.centro p
+{
+    font-size: 50px;
+}
