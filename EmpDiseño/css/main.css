@@ -1,0 +1,56 @@
+.parte1 img
+{
+    margin-top: 40px;
+    border-radius: 50px;
+    width: 1900px;
+    -webkit-border-radius: 50px;
+}
+
+.centro
+{
+    color: rgba(255, 255, 255, 0.808);
+    font-size: 100px;
+	position: absolute;
+	top: 60%;
+    left: 50%;
+    text-align: center;
+	transform: translate(-50%, -50%);
+}
+
+.centro p
+{
+    font-size: 50px;
+}
+
+.btn-section
+{
+	
+	font-size: 28px;
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.btn
+{
+	padding: 20px 40px;
+	border: solid 1px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.btn-white
+{
+	border-color: white;
+    color: white;
+    transition: 0.3s;
+}
+
+.btn-white:hover
+{
+	background-color: white;
+	border-color: white;
+    color: black;
+    transition: 0.3s;
+}

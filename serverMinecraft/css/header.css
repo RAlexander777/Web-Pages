@@ -1,0 +1,98 @@
+@font-face
+{
+    font-family: BloggerSans-Medium;
+    src: url(../fonts/BloggerSans-Medium.ttf);
+}
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: BloggerSans-Medium;
+}
+
+
+
+header
+{
+    margin: auto;
+    margin-top: 0;
+    width: 1200px;
+    height: 177px;
+    background-color:black;
+}
+
+div.contenedor
+{
+    width: 200px;
+    height: 10px;
+    float: left;
+    -webkit-transition: height 0.2s;
+}
+
+div#uno
+{
+    background-color:black;
+}
+
+div#dos
+{
+    background-color: black;
+}
+
+div#tres
+{
+    background-color: black;
+}
+
+div#cuatro
+{
+    background-color: black;
+}
+
+div#cinco
+{
+    background-color: black;
+}
+
+div#seis
+{
+    background-color: black;
+}
+
+img.icon
+{
+    display: block;
+    margin: 35px auto;
+    background-color: rgb(233, 233, 233, 0.15);
+    width:  30px;
+    padding: 20px;
+    -webkit-border-radius: 50px;
+    -webkit-box-shadow: 0px 0px 0px 10px rgba(255, 255, 255, 0.15);
+    -webkit-transition: box-shadow 0.3s; 
+}
+
+p.texto
+{
+    font-size: 1.2em;
+    color: black;
+    text-align: center;
+    padding-top: 12px;
+    opacity: 0.6;
+}
+
+div.contenedor:hover
+{
+    height: 90px;
+}
+
+div.contenedor:hover p.texto
+{
+    color: white;
+    opacity: 1;
+}
+
+div.contenedor:hover img.icon
+{
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.30);
+}

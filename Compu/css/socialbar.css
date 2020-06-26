@@ -1,0 +1,92 @@
+@font-face 
+{
+    font-family: Raleway-Thin;
+    src: url(../fonts/Raleway-Thin.ttf);
+}
+
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: Raleway-Thin;
+}
+
+.medio
+{
+    position: absolute;
+    top: 10%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    top: 80px;
+    right: 0;
+}
+
+.btn
+{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: #D5DED9;
+    margin: 10px;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px -5px #BCBCBC;
+    color: #668284;
+    overflow: hidden;
+    position: relative;
+}
+
+.btn i
+{
+    line-height: 90px;
+    font-size: 26px;
+    transition: 0.2s linear;
+}
+
+.btn:hover i
+{
+    transform: scale(1.3);
+    color: #D5DED9;
+}
+
+.btn::before
+{
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background-color: #83AF9B;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+}
+
+.btn:hover::before
+{
+    animation: aaa 0.7s 1;
+    top: -10%;
+    left: -10%;
+}
+
+@keyframes aaa
+{
+    0%
+    {
+        left: -110%;
+        top: 90%;
+    }
+
+    50%
+    {
+        left: 10%;
+        top: -30%;
+    }
+
+    100%
+    {
+        top: -10%;
+        left: -10%;
+    }
+}
